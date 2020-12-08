@@ -26,7 +26,6 @@ with open('input/day3.txt') as f:
     n_trees = get_trees(lines, (3, 1))
 
     print('Part 1: {}'.format(n_trees))
-
     print('Part 2: {}'.format(get_trees(lines, (1, 1)) * n_trees * get_trees(lines, (5, 1)) * get_trees(lines, (7, 1)) * get_trees(lines, (1, 2))))
 
 
